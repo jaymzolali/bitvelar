@@ -1,0 +1,256 @@
+.logo-img{
+    background: url(./bitvelarr.png) no-repeat center;
+    /* background: url(../assests/bitnex.png) no-repeat center; */
+    width: 4rem;
+    height: 2rem;
+    background-size: 50%;
+    /* border: 1px solid pink */
+}
+.linkss{
+    width: 115px;
+    /* border: 1px solid red; */
+}
+
+/* nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-bottom: 200px;
+} */
+.nav-profile{
+    background: url(./user-circle-.svg) no-repeat center;
+    width: 3.1rem;
+    height: 2.2rem;
+    background-size: 85%;
+}
+
+.nav-menue{
+    position: fixed;
+    top: 10px;
+    right: 15px;
+    /* border: 1px solid red; */
+    /* margin-left: 1.3rem; */
+    background: url(./hamburger-svgrepo-com.svg) no-repeat center;
+    width: 3.5rem;
+    height: 2.5rem;
+    background-size: 120%;
+    /* border-radius: 50%; */
+}
+.nav-bg-color{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    background-color: aliceblue;
+    border-radius: 50%;
+    /* padding-left: 5px;
+    padding-right: 5px; */
+}
+/* .bg-light{
+    background: url(./shine-svgrepo-com.svg) no-repeat center;
+    width: 1.8rem;
+    height: 1.8rem;
+    background-size: 90%;
+}
+.bg-dark{
+    background: url(./moon-svgrepo-com.svg) no-repeat center;
+    width: 1.2rem;
+    height: 1.2rem;
+    background-size: 90%;
+    display: grid;
+    place-items: center;
+} */
+
+.menuu{
+    background-color: white;
+    width: 60vw;
+    height: 46vh;
+    padding: 0.5rem 2rem;
+    border-radius: 12px;
+    position: fixed;
+    top: -100px;
+    left: 155px;
+    /* transform: translateX(-100%); */
+    animation: slideInFromTop 0.5s ease-in-out forwards;
+}
+@keyframes slideInFromTop {
+    0% {
+      top: -100%; /* Start position: off-screen */
+    }
+    100% {
+      top: 50px; /* End position: desired position */
+    }
+  }
+
+/* .menuu.slide-in {
+    top: 50px;
+  } */
+
+
+
+.menu{
+    position: fixed;
+    top: 50px;
+    left: 1px;
+    padding: 20px 30px;
+    /* border: 1px solid red; */
+    background-color: white;
+    height: 83vh;
+    width: 100vw;
+    animation: slideInFromTop 0.5s ease-in-out forwards;
+
+}
+.no-login{
+    position: fixed;
+    top: 50px;
+    left: 1px;
+    padding: 20px 30px;
+    /* border: 1px solid red; */
+    /* background-color: white;
+    height: 83vh; */
+    width: 100vw;
+    animation: slideInFromTop 0.5s ease-in-out forwards;
+
+}
+
+
+
+.overview-img{
+    background: url(./view-grid-svgrepo-com.svg) center no-repeat;
+    background-size: 100%;
+    width: 1.7rem;
+    height: 1.7rem;
+}
+.convert-img{
+    background: url(./analytics-graph-chart-svgrepo-com.svg) center no-repeat;
+    background-size: 100%;
+    width: 1.7rem;
+    height: 1.7rem;
+}
+.staking-img{
+    background: url(./percentage-svgrepo-com.svg) center no-repeat;
+    background-size: 100%;
+    width: 2.2rem;
+    height: 2.2rem;
+}
+.transactions-img{
+    background: url(./bar-chart-4-svgrepo-com.svg) center no-repeat;
+    background-size: 100%;
+    width: 1.7rem;
+    height: 1.7rem;
+}
+.transfer-img{
+    background: url(./return-svgrepo-com.svg) center no-repeat;
+    background-size: 100%;
+    width: 2rem;
+    height: 2rem;
+}
+.reward-img{
+    background: url(./gift-svgrepo-com\ \(1\).svg) center no-repeat;
+    background-size: 100%;
+    width: 2rem;
+    height: 2rem;
+}
+
+.pro1_img{
+    background: url(./profile-round-1342-svgrepo-com.svg) center no-repeat;
+    background-size: 100%;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.pro2_img{
+    background: url(./tag-svgrepo-com.svg) center no-repeat;
+    background-size: 100%;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.pro3_img{
+    background: url(./chain-svgrepo-com.svg) center no-repeat;
+    background-size: 100%;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.pro4_img{
+    background: url(./tick-svgrepo-com.svg) center no-repeat;
+    background-size: 100%;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.pro5_img{
+    background: url(./bar-chart-4-svgrepo-com.svg) center no-repeat;
+    background-size: 100%;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.pro6_img{
+    background: url(./logout-svgrepo-com.svg) center no-repeat;
+    background-size: 100%;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+
+.btn-log{
+    border: 1px solid #420c8e;
+    color: #420c8e;
+    width: 5.5rem;
+    height: 2.2rem;
+    border-radius: 30px;
+    box-shadow: 2px 5px 15px #000000;
+    padding-top: 5px;
+}
+.btn-log:hover{
+    background-color: #420c8e;
+    color: #fff;
+}
+.btn-se:hover{
+    background-color: #fff;
+    color: #420c8e;
+    border: 1px solid #420c8e;
+}
+.btn-se{
+    background-color: #420c8e;
+    width: 5.5rem;
+    height: 2.2rem;
+    border-radius: 30px;
+    color: #fff;
+    box-shadow: 2px 5px 15px #000000;
+}
+.btn-sec11:hover{
+    background: #ffffff;
+    border: 1px soild #420c8e;
+    color: #420c8e;
+}
+.btn-sec1:hover{
+    background: #ffffff;
+    border: 1px soild #420c8e;
+    color: #420c8e;
+}
+
+/* .no-login{
+    g
+} */
+.dark-mode{
+    background-color: grey;
+    color: #ffff;
+}
+
+
+
+@media (min-width: 768px) {
+    .lrge{
+        display: grid;
+        grid-template-columns: 60% 170% 10%;
+    }
+    .laptop{
+        display: grid;
+        /* border: 1px solid red; */
+    }
+    .nav-profile{
+        width: 30px;
+        height: 30px;
+    }
+}
+
+
+
+

@@ -1,0 +1,51 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+    .sec22{
+        margin-left: 6rem;
+        display: grid;
+        place-items: center;
+        grid-template-columns: 15% 15% 15% 15%;
+        gap: 8%;
+        width: 100%;
+    }
+    .cards{
+        width: 19rem;
+    }
+}
+
+
+
+
+

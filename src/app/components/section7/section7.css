@@ -1,0 +1,65 @@
+.section7{
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 2%, rgba(244,241,246,1) 31%);
+    border-radius: 20px;
+}
+
+
+
+.p-img1{
+    background: url(./bitcoin-card-svgrepo-com.svg) no-repeat center;
+    width: 4.2rem;
+    height: 4.2rem;
+    background-size: 100%;
+}
+.p-img2{
+    background: url(./bitcoin-refresh-svgrepo-com.svg) no-repeat center;
+    width: 4.2rem;
+    height: 4.2rem;
+    background-size: 100%;
+}
+.p-img3{
+    background: url(./bitcoin-full-bag-svgrepo-com.svg) no-repeat center;
+    width: 4rem;
+    height: 4rem;
+    background-size: 100%;
+}
+.p-arrow{
+    /* color: purple; */
+    background: url(./right-arrow-alt-regular-24\ \(1\).png) no-repeat center;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-size: 100%;
+    background-color: #e6e3e3;
+    border-radius: 50%;
+}
+
+
+.gift{
+    background-color: #420c8e;
+    border-radius: 20px;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+    .section7{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    }
+    .names{
+        width: 400px;
+    }
+}
+
+
+
+
+
+

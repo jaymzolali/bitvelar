@@ -1,0 +1,45 @@
+
+
+
+.section4{
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 35%, rgba(244,241,246,1) 98%);
+}
+
+
+
+.graph-img{
+    margin-top: 80px;
+    background: url(../../assests/graph-bitvevo.webp) no-repeat center;
+    width: 100%;
+    height: 55vh;
+    background-size: 80%;
+}
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+    .section4{
+        display: grid;
+        grid-template-columns: 40% 40%;
+        gap: 15%;
+    }
+    .graph-img{
+        margin-top: 0;
+        width: 45rem;
+        height: 70rem;
+        background-size: 80%;
+    }
+    .sec3-HIW{
+        margin-top: 10rem;
+    }
+}
+
+
+
+
+

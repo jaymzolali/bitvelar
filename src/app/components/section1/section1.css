@@ -1,0 +1,62 @@
+.head1{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.para1{
+    width: 90vw;
+}
+header h1{
+    color: #420c8e;
+}
+
+
+
+
+.btn-sec1{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    background: #420c8e;
+    width: 6.5rem;
+    height: 3.5rem;
+    border-radius: 30px;
+    color: #fff;
+    box-shadow: 2px 5px 15px black;
+}
+
+.hero{
+    background: url(../../assests/hero-1_update.png) no-repeat center;
+    width: 90vw;
+    height: 57vh;
+    margin: 1vh 5vw;
+    background-size: 95%;
+}
+
+
+
+
+@media (min-width: 768px) {
+    .seccc1{
+        display: grid;
+        grid-template-columns: 30% 50%;
+        padding: 4rem 4rem;
+        gap: 10%;
+    }
+    .head1{
+        /* width: 20rem; */
+        font-size: 54px;
+        /* font: 10rem; */
+    }
+    .para1{
+        width: 27rem;
+        /* margin: 3rem 2rem; */
+    }
+    .hero{
+        background: url(../../assests/hero-1_update.png) no-repeat center;
+        width: 50vw;
+        height: 40rem;
+        /* margin: 1vh 5vw; */
+        background-size: 85%;
+    }
+}
+
+

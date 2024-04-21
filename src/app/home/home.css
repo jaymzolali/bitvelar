@@ -1,0 +1,121 @@
+
+
+
+
+
+.os-icon{
+    background: url(./os-icon.svg) no-repeat center;
+    width: 1.9rem;
+    height: 1.9rem;
+    margin: 1vh 5vw;
+    background-size: 95%;
+    /* border: 1px solid green; */
+}
+.wittz-img{
+    display: grid;
+    place-items: center;
+    background: url(./deposit_icon.svg) no-repeat center;
+    margin: 0 25vw;
+    width: 9.9rem;
+    height: 9.9rem;
+}
+.deppo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+.depp1{
+    position: fixed;
+    top: 15%;
+    left: 7%;
+    padding: 20px 30px;
+    border: 1px solid purple;
+    border-radius: 20px;
+    background-color: white;
+    /* background: url(./circle.png) center no-repeat; */
+    height: 70dvh;
+    width: 85dvw;
+}
+.wittd{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+.wittd2{
+    position: fixed;
+    top: 4%;
+    left: 7%;
+    padding: 20px 30px;
+    border: 1px solid purple;
+    border-radius: 20px;
+    background-color: white;
+    /* background: url(./circle.png) center no-repeat; */
+    height: 90dvh;
+    width: 85dvw;
+}
+select{
+    outline: none;
+    
+}
+.sel-op{
+    border: 1px solid #e8dbfa;
+    width: 70vw;
+    height: 3rem;
+    border-radius: 30px;
+}
+
+
+
+
+.ab1-wallet-img{
+    background: url(./ab-wallet.svg) no-repeat center;
+    width: 1.9rem;
+    height: 1.9rem;
+    background-size: 95%;
+
+}
+
+
+@media (min-width: 768px) {
+    .cont{
+        grid-template-columns: 20% 70%;
+    }
+    .container-left{
+        background-color: #ffffff;
+        padding-left: 20px;
+    }
+    .overview{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        padding-left:20px
+    }
+    .overview:nth-child(5){
+        background-color: #e8dbfa;
+        box-shadow: 0 0 12px #e8dbfa;
+        color: #420c8e;
+        border: 1px solid #420c8e;
+        width: 12rem;
+        border-radius: 20px;
+    }
+    .ab-dep, .ab-witdrw{
+        width: 15rem;
+    }
+    
+}
+@media (max-width: 768px) {
+    .container-left{
+        display: none;
+        grid-template-columns: 20% 70%;
+    }
+}
+
+
+

@@ -1,0 +1,52 @@
+.support{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 12rem;
+    height: 6vh;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+    /* position: fixed;
+    left: 50%;
+    bottom: 0; */
+}
+
+.headphone{
+    background: url(./headset-svgrepo-com.svg) center no-repeat;
+    width: 2rem;
+    height: 2rem;
+    background-size: 91%;
+}
+
+.green{
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+.supp{
+    padding: 1rem;
+    position: fixed;
+    top: 10%;
+    left: 11%;
+    width: 23rem;
+    height: 87dvh;
+    border-radius: 20px;
+    background: rgb(235,219,246);
+    background: linear-gradient(180deg, rgba(235,219,246,1) 54%, rgba(244,241,246,1) 100%);
+}
+.supp1{
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid green;
+}
+
+.custom-inp{
+    border: 1px solid purple;
+    width: 70vw;
+    height: 3rem;
+    border-radius: 30px;
+}

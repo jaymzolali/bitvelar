@@ -1,0 +1,19 @@
+
+
+
+
+
+
+
+
+
+@media (min-width: 700px) {
+    .login{
+        width: 45vw;
+        margin-left: 23rem;
+        margin-bottom: 10rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
+        padding-bottom: 2rem;
+    }
+}

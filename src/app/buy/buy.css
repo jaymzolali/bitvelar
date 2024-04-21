@@ -1,0 +1,96 @@
+
+
+
+
+
+.buy-space{
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 20%, rgba(245,242,247,1) 94%, rgba(245,242,247,1) 94%, rgba(244,241,246,1) 100%, rgba(134,63,181,1) 100%);
+
+}
+
+.chngly-btn {
+    transition: 0.3s ease-in-out 0.2s;
+  }
+
+
+.chngly-img{
+    background: url(./changelly.webp) no-repeat center;
+    width: 7.9rem;
+    height: 7rem;
+    background-size: 95%;
+}
+.bitpay-img{
+    background: url(./bitpay-min.webp) no-repeat center;
+    width: 7.9rem;
+    height: 7rem;
+    background-size: 95%;
+}
+.ramp-img{
+    background: url(./ramp-min.webp) no-repeat center;
+    width: 7.9rem;
+    height: 7rem;
+    background-size: 95%;
+}
+.moonpay-img{
+    background: url(./moonpay-min.webp) no-repeat center;
+    width: 7.9rem;
+    height: 7rem;
+    background-size: 95%;
+}
+.transak-img{
+    background: url(./transak-min.webp) no-repeat center;
+    width: 7.9rem;
+    height: 7rem;
+    background-size: 95%;
+}
+.simplex-img{
+    background: url(./simplex.webp) no-repeat center;
+    width: 7.9rem;
+    height: 7rem;
+    background-size: 95%;
+}
+.mercury-img{
+    background: url(./mercuryo.webp) no-repeat center;
+    width: 7.9rem;
+    height: 7rem;
+    background-size: 95%;
+}
+.coing-img{
+    background: url(./coingate.webp) no-repeat center;
+    width: 7.9rem;
+    height: 7rem;
+    background-size: 95%;
+}
+.banxa-img{
+    background: url(./banxa-min.webp) no-repeat center;
+    width: 7.9rem;
+    height: 7rem;
+    background-size: 95%;
+}
+.phemex-img{
+    background: url(./phemex.webp) no-repeat center;
+    width: 7.9rem;
+    height: 7rem;
+    background-size: 95%;
+}
+
+
+
+
+@media (min-width: 768px) {
+    .changelly{
+        display: grid;
+        grid-template-columns: 10% 50% 10%;
+        gap: 10%;
+    }
+    .chgly-para{
+        display: grid;
+        place-items: center;
+    }
+}
+
+
+
+
+

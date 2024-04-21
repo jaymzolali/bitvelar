@@ -1,0 +1,15 @@
+.fees_plan{
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 20%, rgba(244,241,246,1) 45%);
+    border-radius: 20px;
+}
+
+.fees-img{
+    background: url(./fees.svg) center no-repeat;
+    background-size: 100%;
+    width: 87vw;
+    height: 50vh;
+}
+
+
+

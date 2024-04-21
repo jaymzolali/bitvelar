@@ -1,0 +1,41 @@
+.about_1{
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 20%, rgba(244,241,246,1) 45%);
+    border-radius: 20px;
+}
+
+.about_1-img{
+    background: url(./about.svg) center no-repeat;
+    background-size: 100%;
+    width: 87vw;
+    height: 50vh;
+}
+
+
+.about_2{
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 20%, rgba(244,241,246,1) 45%);
+    border-radius: 20px;
+}.about_3{
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 20%, rgba(244,241,246,1) 45%);
+    border-radius: 20px;
+}
+.about_4{
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 20%, rgba(244,241,246,1) 45%);
+    border-radius: 20px;
+}
+
+.star-img{
+    background: url(./star-shine-svgrepo-com.png) center no-repeat;
+    background-size: 100%;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+
+
+
+
+

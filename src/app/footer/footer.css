@@ -1,0 +1,65 @@
+
+.footer-img{
+    background: url(../assests/bitnex.png) no-repeat center;
+    width: 6rem;
+    height: 2rem;
+    background-size: 100%;
+    /* border: 1px solid pink; */
+    margin: 0;
+    padding: 0;
+    /* background-color: purple; */
+}
+
+
+
+
+
+
+
+.fb{
+    background: url(./facebook-svgrepo-com.svg) center no-repeat;
+    background-size: 100%;
+    width: 2rem;
+    height: 2rem;
+}
+.ig{
+    background: url(./instagram-svgrepo-com.svg) center no-repeat;
+    background-size: 100%;
+    width: 2rem;
+    height: 2rem;
+}
+.tel{
+    background: url(./telegram-alt-svgrepo-com.svg) center no-repeat;
+    background-size: 100%;
+    width: 2rem;
+    height: 2rem;
+}
+.lin{
+    background: url(./linkedin-svgrepo-com.svg) center no-repeat;
+    background-size: 100%;
+    width: 2rem;
+    height: 2rem;
+}
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+    .le-serv{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 2.5rem;
+    }
+    .legal, .service, .company, .help{
+        width: 200px;
+    }
+    .fft{
+        display: grid;
+        grid-template-columns: 20% 70%;
+        gap: 10%;
+    }
+}

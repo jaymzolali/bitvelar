@@ -1,0 +1,26 @@
+
+
+
+.rissk{
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 20%, rgba(244,241,246,1) 45%);
+    border-radius: 20px;
+}
+
+.risk-img{
+    background: url(./risk_pk.svg) center no-repeat;
+    background-size: 90%;
+    width: 87vw;
+    height: 60vh;
+}
+
+
+@media (min-width: 768px) {
+    .risk-img{
+        background: url(./risk_pk.svg) center no-repeat;
+        background-size: 90%;
+        width: 60vw;
+        height: 50vh;
+    }
+    
+}

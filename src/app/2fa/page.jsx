@@ -5,7 +5,7 @@ const page = () => {
       <div className="border rounded-2xl bg-slate-50 mx-3 my-3 px-3">
         <div className="border-b py-3">
           <h1 className='font-bold text-2xl'>2FA <span className='text-[red] text-2xl font-bold'>Disabled</span></h1>
-          <p>If you want to enable 2FA, enter the six digit code provided by the Google Authentication app below, then click "Enable 2FA".</p>
+          <p>If you want to enable 2FA, enter the six digit code provided by the Google Authentication app below, then click Enable 2FA.</p>
         </div>
         <div className="pt-3">
         <h1 className='font-bold text-2xl'>Enable 2FA</h1>
